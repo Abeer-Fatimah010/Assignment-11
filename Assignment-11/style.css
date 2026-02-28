@@ -1,0 +1,350 @@
+body{
+    background:#ffffff;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.color{
+    width: 1000px;
+    height: 700px;
+    background-color: #38001435;
+    margin: 10% auto;
+    position: relative;
+    
+}
+
+.circle1{
+    width: 250px;
+    height: 250px;
+    clip-path: circle(50% at 50% 50%);
+background-color:rgb(72, 1, 29);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 200px;
+z-index:1 ;
+}
+
+.circle2{
+    width: 250px;
+    height: 250px;
+    clip-path: circle(50% at 50% 50%);
+background-color:rgb(94, 0, 38);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 250px;
+z-index:5 ;
+}
+
+.circle3{
+    width: 250px;
+    height: 250px;
+    clip-path: circle(50% at 50% 50%);
+background-color:rgb(110, 16, 53);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 300px;
+z-index: 10;
+}
+
+.circle4{
+    width: 250px;
+    height: 250px;
+    clip-path: circle(50% at 50% 50%);
+background-color:rgb(101, 35, 62);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 350px;
+z-index:15 ;
+}
+
+.circle5{
+    width: 250px;
+    height: 250px;
+    clip-path: circle(50% at 50% 50%);
+background-color:rgb(121, 48, 78);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 400px;
+z-index:20;
+}
+
+.circle6{
+    width: 250px;
+    height: 250px;
+    clip-path: circle(50% at 50% 50%);
+background-color:rgb(138, 65, 95);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 450px;
+z-index:25 ;
+}
+
+.circle7{
+    width: 250px;
+    height: 250px;
+    clip-path: circle(50% at 50% 50%);
+background-color:rgb(152, 84, 112);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 500px;
+z-index: 30;
+}
+
+.square1{
+      width: 250px;
+    height: 250px;
+    clip-path: circle(73.1% at 49% 48%);
+background-color:rgb(15, 1, 70);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 200px;
+z-index: 1;
+}
+
+.square2{
+      width: 250px;
+    height: 250px;
+    clip-path: circle(73.1% at 49% 48%);
+background-color:rgb(21, 5, 85);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 250px;
+z-index: 5;
+}
+
+.square3{
+      width: 250px;
+    height: 250px;
+    clip-path: circle(73.1% at 49% 48%);
+background-color:rgb(32, 16, 96);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 300px;
+z-index: 10;
+}
+
+.square4{
+      width: 250px;
+    height: 250px;
+    clip-path: circle(73.1% at 49% 48%);
+background-color:rgb(56, 36, 136);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 350px;
+z-index: 15;
+}
+
+.square5{
+      width: 250px;
+    height: 250px;
+    clip-path: circle(73.1% at 49% 48%);
+background-color:rgb(63, 47, 126);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 400px;
+z-index: 20;
+}
+
+.square6{
+      width: 250px;
+    height: 250px;
+    clip-path: circle(73.1% at 49% 48%);
+background-color:rgb(73, 55, 143);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 450px;
+z-index: 25;
+}
+
+.square7{
+      width: 250px;
+    height: 250px;
+    clip-path: circle(73.1% at 49% 48%);
+background-color:rgb(124, 110, 181);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 500px;
+z-index: 30;
+}
+
+.diamond1{
+      width: 250px;
+    height: 250px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color:rgb(2, 72, 17);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 200px;
+z-index: 30;
+}
+
+.diamond2{
+      width: 250px;
+    height: 250px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color:rgb(11, 97, 30);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 250px;
+z-index: 30;
+}
+
+.diamond3{
+      width: 250px;
+    height: 250px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color:rgb(32, 126, 52);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 300px;
+z-index: 30;
+}
+
+.diamond4{
+      width: 250px;
+    height: 250px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color:rgb(61, 142, 79);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 350px;
+z-index: 30;
+}
+
+.diamond5{
+      width: 250px;
+    height: 250px;
+    clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color:rgb(90, 150, 103);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 400px;
+z-index: 30;
+}
+
+.diamond6{
+      width: 250px;
+    height: 250px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color:rgb(122, 164, 131);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 450px;
+z-index: 30;
+}
+
+.diamond7{
+      width: 250px;
+    height: 250px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color:rgb(145, 184, 153);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 500px;
+z-index: 30;
+}
+
+.hexagon1{
+      width: 250px;
+    height: 250px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+background-color: rgb(104, 44, 4);
+top: 150px;
+position: absolute;
+bottom: 150px;
+left: 200px;
+z-index: 1;
+}
+
+.hexagon2{
+      width: 250px;
+    height: 250px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+background-color:rgb(127, 58, 12);
+top: 150px;
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 250px;
+z-index: 5;
+}
+
+.hexagon3{
+      width: 250px;
+    height: 250px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+background-color:rgb(137, 70, 26);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 300px;
+z-index: 10;
+}
+
+.hexagon4{
+      width: 250px;
+    height: 250px;
+    clip-path:polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+background-color:rgb(172, 98, 49);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 350px;
+z-index: 15;
+}
+
+.hexagon5{
+      width: 250px;
+    height: 250px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+background-color:rgb(189, 120, 75);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 400px;
+z-index: 20;
+}
+
+.hexagon6{
+      width: 250px;
+    height: 250px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+background-color:rgb(206, 145, 105);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 450px;
+z-index: 25;
+}
+
+.hexagon7{
+      width: 250px;
+    height: 250px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+background-color:rgb(212, 169, 141);
+position: absolute ;
+top: 150px;
+bottom: 150px;
+left: 500px;
+z-index: 30;
+}
